@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adam's Portfolio</title>
+        <!-- Link to external CSS file (styles.css) -->
+        <link rel="stylesheet" href="web.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <body style="background-image: url('images/galaxy-bg.jpg'); background-size: cover; background-position: center;">
+        <!-- Header Section (Navigation) -->
+        <header>
+            <div class="container">
+                <div class="branding">
+                    <h1><span class="highlight">ADAM'S</span> PORTFOLIO</h1>
+                </div>
+                <div class="nav-buttons">
+                    <button class="nav-button" onclick="document.getElementById('AboutMe').scrollIntoView({behavior: 'smooth'})">
+                        <i class="fas fa-user"></i> About Me
+                    </button>
+                    <button class="nav-button" onclick="document.getElementById('Hobbies').scrollIntoView({behavior: 'smooth'})">
+                        <i class="fas fa-gamepad"></i> Hobbies
+                    </button>
+                    <button class="nav-button" onclick="document.getElementById('Skills').scrollIntoView({behavior: 'smooth'})">
+                        <i class="fas fa-code"></i> Skills
+                    </button>
+                    <button class="nav-button" onclick="document.getElementById('Contact').scrollIntoView({behavior: 'smooth'})">
+                        <i class="fas fa-envelope"></i> Contact
+                    </button>
+                    <a href="https://docs.google.com/document/d/1wS5k3CmVLfUBbO--7obphWOEmJoat3Wx/edit" class="nav-button">
+                        <i class="fas fa-file"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Section -->
+        <section class="main-content" id="main2">
+            <div class="container">
+                <div class="profile-section" style="display: flex; align-items: center; gap: 2rem;">
+                    <img src="IMG_3759.jpg" alt="Profile Picture" class="profile-img">
+                    <div>
+                        <h2><span class="highlight">ADAM ABAKAR!</span></h2>
+                        <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 1rem;">I'm a passionate developer and creative thinker dedicated to crafting elegant solutions to complex problems. With a strong foundation in web development and a keen eye for detail, I strive to create impactful digital experiences.</p>
+                    </div>
+                </div>
+                <div class="content" id="AboutMe" style="background: rgba(255, 255, 255, 0.95); padding: 2.5rem; border-radius: 15px; margin-top: 2rem; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);">
+                    <div style="display: flex; align-items: center; gap: 2rem;">
+                        <img src="IMG_3666.JPG" alt="About Me Picture" class="about-me-picture" style="width: 40%; height: auto; border-radius: 50px;"> <!-- Changed border-radius to make the picture oval -->
+                        <div>
+                            <h2><i class="fas fa-user" style="color: #4a90e2;"></i> About Me</h2>
+                            <p style="font-size: 1.2rem; line-height: 1.8; margin-top: 0.2rem; padding-bottom: 1.5rem;"> <!-- Moved the text up by reducing the margin-top -->
+                                Hello! I'm <span class="highlight" style="font-size: 1.3rem;">Adam</span>, a passionate individual from Sudan with a love for technology and sports. 
+                            </p>
+                            <ul style="list-style-type: none; margin-top: 1rem; padding-left: 1rem;">
+                                <li style="margin: 1rem 0;">
+                                    <i class="fas fa-basketball" style="color: #4a90e2; margin-right: 10px;"></i>
+                                    Before I moved here I lived in Khartoum for 8 years before I moved here with both of my parents 
+                                </li>
+                                <li style="margin: 1rem 0;">
+                                    <i class="fas fa-futbol" style="color: #4a90e2; margin-right: 10px;"></i>
+                                    I have 4 siblings 2 brothers and 2 sisters 
+                                </li>
+                                <li style="margin: 1rem 0;">
+                                    <i class="fas fa-gamepad" style="color: #4a90e2; margin-right: 10px;"></i>
+                                    My favourite soccer Team is Barcelona
+                                </li>
+                                <li style="margin: 1rem 0;">
+                                    <i class="fas fa-pizza-slice" style="color: #4a90e2; margin-right: 10px;"></i>
+                                    My favorite basketball team is the Golden State Warriors
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="content" id="Hobbies">
+            <div class="container">
+                <h2><i class="fas fa-gamepad"></i> Hobbies & Interests</h2>
+                <div class="hobbies-interests-section">
+                    <div class="hobbies-interests-item">
+                        <i class="fas fa-basketball fa-3x" style="color: #4a90e2; margin-bottom: 1rem;"></i>
+                        <h3>Sports Enthusiast</h3>
+                        <ul>
+                            <li><strong>Basketball:</strong> Active player in recreational leagues, passionate about team dynamics and strategy</li>
+                            <li><strong>Soccer:</strong> Regular weekend matches, focusing on teamwork and skill development</li>
+                            <li><strong>Fitness:</strong> Dedicated to maintaining peak physical condition through regular training</li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-interests-item">
+                        <i class="fas fa-gamepad fa-3x" style="color: #4a90e2; margin-bottom: 1rem;"></i>
+                        <h3>Gaming Passion</h3>
+                        <ul>
+                            <li><strong>NBA2K24:</strong> Competitive player with strategic gameplay focus</li>
+                            <li><strong>FC25:</strong> Ultimate Team builder and tactical enthusiast</li>
+                            <li><strong>Gaming Community:</strong> Active participant in online gaming communities</li>
+                        </ul>
+                    </div>
+                    <div class="hobbies-interests-item">
+                        <i class="fas fa-utensils fa-3x" style="color: #4a90e2; margin-bottom: 1rem;"></i>
+                        <h3>Culinary Adventures</h3>
+                        <ul>
+                            <li><strong>Pizza:</strong> Exploring different styles and authentic preparations</li>
+                            <li><strong>Canadian Cuisine:</strong> Particularly fond of authentic poutine</li>
+                            <li><strong>Global Tastes:</strong> Always eager to try new cultural dishes</li>
+                        </ul>
+                    </div>
+                </div>
+            </</section>
+
+        <!-- Skills Section -->
+        <section class="skills-section" id="Skills">
+            <div class="container">
+                <h2><i class="fas fa-laptop-code"></i> Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fas fa-hourglass"></i>
+                        <h3>Time Management</h3>
+                        <p>Expert at prioritizing tasks and meeting deadlines efficiently</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-crown"></i>
+                        <h3>Leadership</h3>
+                        <p>Experienced in guiding teams and fostering collaborative environments</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-people-group"></i>
+                        <h3>Team Collaboration</h3>
+                        <p>Strong ability to work effectively in diverse team settings</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Problem Solving</h3>
+                        <p>Analytical thinker with creative solution-finding abilities</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Technical Skills</h3>
+                        <p>Proficient in HTML, CSS, JavaScript, and modern web technologies</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-message-dots"></i>
+                        <h3>Communication</h3>
+                        <p>Excellence in verbal and written professional communication</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Project Management</h3>
+                        <p>Experienced in planning and executing complex projects</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Innovation</h3>
+                        <p>Creative approach to challenges and continuous improvement</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section (Contact) -->
+        <footer id="Contact">
+            <div class="container">
+                <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+                <div class="contact-links">
+                    <a href="mailto:aballer314@gmail.com" class="contact-button">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" class="contact-button">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/yourusername" class="contact-button">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <p><i class="fas fa-phone"></i> (902) 403-8765</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Link to External JavaScript File -->
+        <script src="javia.js"></script>
+    </body>
+</html>
